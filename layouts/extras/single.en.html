@@ -1,0 +1,33 @@
+{{ define "cookie"}}
+    {{ partial "en/single-page-cookie.en.html" . }}
+{{ end }}
+
+{{ define "site-header"}}
+    {{ partial "en/site-main-header.en.html" . }}
+{{ end }}
+
+{{ define "title" }}
+  {{ .Title }}
+{{ end }}
+
+{{ define "main-single" }}
+
+<div class="single-container">
+  <h1>
+    {{ .Title }}
+  </h1>
+  <img class="hero-image" src="{{ .Params.heroimage }}" alt="Decorative image that describes title">
+  <article class="single-article">
+    {{ .Content }}
+  </article>
+
+</div>
+{{ end }}
+
+{{ define "upper-footer" }}
+  {{ partial "en/single-page-upper-footer.en.html" . }}
+{{ end }}
+
+{{ define "site-footer"}}
+    {{ partial "en/site-main-footer.en.html" . }}
+{{ end }}

@@ -1,0 +1,17 @@
+<article class="about-us">
+    <div>
+        <h2 class="big-font">About Us</h2>
+        <p>Our team, gallery, location and working hours...</p>
+    </div>
+    <div>
+        {{ range first 3 .Site.Taxonomies.tags.sobrenosotros }}
+            <section>
+                <ul>
+                    <li><h3><a href="{{ .URL }}">{{ .Name }}</a></h3></li>
+                    <li>{{ .Content | truncate 180 }}</li>
+                </ul>
+                <a href="{{ .URL }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a>
+            </section>
+        {{ end }}
+    </div>
+</article>

@@ -1,0 +1,28 @@
+<footer>
+    <nav id="main-menu">
+        <h3>Links and browsing </h3>
+        <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </nav>
+    <aside>
+        <p>
+                {{ $.Site.Params.copyright }}
+        </p>
+        <p>
+            <a href="https://www.facebook.com/clinica.dental.blancodent.las.palmas">Facebook</a>
+            <a href="https://twitter.com/blancodent">Twitter</a> <br>
+            <a href="/en">English Site</a> |
+            <a href="/">Versión en Español</a>
+        </p>
+        <p>
+            Design & Code <a href="https://twitter.com/drkedrkedjon">@drkedrkedjon</a>
+        </p>
+    </aside>
+</footer>
+

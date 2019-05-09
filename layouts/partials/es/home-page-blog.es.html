@@ -1,0 +1,22 @@
+<article class="home-blog">
+    <div>
+    <h2 class="big-font">Blog y Noticias</h2>
+    <p>Los últimos artículos e importantes noticias</p>
+    </div>
+    <div>
+    {{ range first 3 .Site.Taxonomies.tags.blogging }}
+        <section>
+            <ul>
+                <li><h3><a href="{{ .URL }}">{{ .Name }}</a></h3></li>
+                <li><a href="{{ .URL }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a></li>
+                <li>{{ .Content | truncate 250 }}</li>
+            </ul>
+            
+        </section>
+    {{ end }}
+    </div>
+    <p>
+        <a class="myButton-light" href="/blog">Artículos anteriores --></a>
+    </p>
+    
+</article>

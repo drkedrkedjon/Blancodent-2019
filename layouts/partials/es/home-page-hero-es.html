@@ -1,0 +1,17 @@
+<article class="home-hero">
+
+    {{ range first 1 .Site.Taxonomies.tags.ofertas }}
+        <section>
+            <h1 class="big-font">{{ .Name }}</h1>
+            {{ .Content | truncate 250 }}
+            <br>
+            <a class="myButton" href="/ofertas">Ver todas las ofertas --></a>
+        </section>
+        <img class="ocultar" src="{{ .Params.heroimage }}" alt="">
+        <video class="ocultar" poster="{{ .Params.poster }}" controls playsinline >
+            <source src="{{ .Params.herovideo }}" type="video/mp4" >
+            <p>Your browser doesn't support HTML5 video. Here is a <a href="{{ .Params.herovideo }}">link to the video</a> instead.</p>
+        </video>
+    {{ end }}
+
+</article>

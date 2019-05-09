@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="{{.Description}} {{ $.Site.Params.description }}">
+        <meta name="google-site-verification" content="ORsMxE1YiPy4bKnPynXz7f4NIkUBAxEF6aB83zsZfNs" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/basic-css.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/modern-css.css"> 
+        <title> {{ block "title" . }} {{ .Site.Title }} {{ end }} </title>
+        {{ block "cookie" . }} {{ end}}
+    </head>
+
+    <body>
+        <div class="container">
+            {{ block "site-header" . }} {{ end }}
+            {{ block "hero-image" . }} {{ end }}
+            {{ block "about-us" . }} {{ end }}
+            {{ block "servicios" . }} {{ end }}
+            {{ block "blog" . }} {{ end }}
+            {{ block "main-list" . }} {{ end }}
+            {{ block "main-single" . }} {{ end }}
+            {{ block "upper-footer" . }} {{ end }}
+            {{ block "site-footer" . }} {{ end }}
+        </div>
+    </body>
+</html>

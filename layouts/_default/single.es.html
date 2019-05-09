@@ -1,0 +1,34 @@
+{{ define "site-header"}}
+    {{ partial "es/site-main-header.es.html" . }}
+{{ end }}
+
+{{ define "title" }}
+  {{ .Title }}
+{{ end }}
+
+{{ define "main-single" }}
+
+<div class="single-container">
+  <h1>
+    {{ .Title }}
+  </h1>
+  <img class="hero-image" src="{{ .Params.heroimage }}" alt="Imagen decorativa corespondiente a la descripcion en titulo">
+  <article class="single-article">
+    {{ .Content }}
+    <p><br><br>
+      <em>{{ .Date.Format "Monday, January 2, 2006" }} </em><br>
+      {{ $.Site.Params.copyright }}<br><br>
+      <a class="myButton" href="/extras/contact">Cita Previa --></a>
+    </p>
+  </article>
+
+</div>
+{{ end }}
+
+{{ define "upper-footer" }}
+  {{ partial "es/single-page-upper-footer.es.html" . }}
+{{ end }}
+
+{{ define "site-footer"}}
+    {{ partial "es/site-main-footer.es.html" . }}
+{{ end }}

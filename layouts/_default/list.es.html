@@ -1,0 +1,32 @@
+{{ define "site-header"}}
+    {{ partial "es/site-main-header.es.html" . }}
+{{ end }}
+
+{{ define "main-list" }}
+<article class="list-blog">
+    <div>
+    <h2 class="big-font">Lista</h2>
+    <p>Listado de toda seccion</p>
+    </div>
+    <div>
+    {{ range .Pages  }}
+        <section>
+            <ul>
+                <li><h3><a href="{{ .URL }}">{{ .Name }}</a></h3></li>
+                <li><a href="{{ .URL }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a></li>
+                <li>{{ .Content | truncate 250 }}</li>
+            </ul>
+            
+        </section>
+    {{ end }}
+    </div>
+</article>
+{{ end }}
+
+{{ define "upper-footer" }}
+        {{ partial "es/list-page-upper-footer.es.html" . }}
+{{ end }}
+
+{{ define "site-footer"}}
+    {{ partial "es/site-main-footer.es.html" . }}
+{{ end }}

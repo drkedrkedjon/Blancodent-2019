@@ -1,0 +1,47 @@
+/* ---------- Font-Face declaration under --------------------------------- */
+h1, h2, h3, h4, h5, h6, p, a {font-family: Helvetica, Arial, sans-serif; color: black;}
+h1 {font-size: 2.25rem;}
+h2 {font-size: 1.5rem;}
+p {font-size: 1rem;}
+
+/* ---------- Font-Face declaration above --------------------------------- */
+
+/* ---------- body declaration under -------------------------------------- */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* ---------- bodu declaration above -------------------------------------- */
+
+/* ---------- site-main-header.html declaration under --------------------- */
+
+header {
+    background-color: rgba(247, 205, 113, 1);
+    padding: 20px;
+}
+header > img:nth-of-type(2) {
+    width: 14%;
+    margin-left: 20px;
+}
+header > img:nth-of-type(1) {
+    width: 60%;
+}
+.head-menu  ul > li {
+    display: inline;
+    margin: 2px;
+}
+.head-menu ul {
+    list-style-type: none;
+    padding: 0%
+}
+
+.image2 {
+    display: none;
+}
+/* ---------- site-main-header.html declaration above --------------------- */

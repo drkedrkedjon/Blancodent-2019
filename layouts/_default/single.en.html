@@ -1,0 +1,34 @@
+{{ define "site-header"}}
+    {{ partial "en/site-main-header.en.html" . }}
+{{ end }}
+
+{{ define "title" }}
+  {{ .Title }}
+{{ end }}
+
+{{ define "main-single" }}
+
+<div class="single-container">
+  <h1>
+    {{ .Title }}
+  </h1>
+  <img class="hero-image" src="{{ .Params.heroimage }}" alt="Decorative image that describes title">
+  <article class="single-article">
+    {{ .Content }}
+    <p><br><br>
+      <em>{{ .Date.Format "Monday, January 2, 2006" }} </em><br>
+      {{ $.Site.Params.copyright }}<br><br>
+      <a class="myButton" href="/en/extras/contact">Appointment form --></a>
+    </p>
+  </article>
+
+</div>
+{{ end }}
+
+{{ define "upper-footer" }}
+  {{ partial "en/single-page-upper-footer.en.html" . }}
+{{ end }}
+
+{{ define "site-footer"}}
+    {{ partial "en/site-main-footer.en.html" . }}
+{{ end }}

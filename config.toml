@@ -1,0 +1,18 @@
+baseURL = "https://blancodent.com/"
+languageCode = "es"
+title = "Clínica Dental Blancodent - Las Palmas de G.C."
+DefaultContentLanguage = "es"
+defaultContentLanguageInSubdir = "false"
+[languages]
+    [languages.es]
+        title = "Clínica Dental Blancodent - Las Palmas de G.C."
+        languageName = "Español"
+        weight = 1
+    [languages.en]
+        title = "Blancodent Dental Clinic - Las Palmas de G.C."
+        languageName = "English"
+        weight = 2
+
+[params]
+  copyright = "©Clinica Dental Blancodent™ 1996-2019"
+  description = "Odontólogos con titulaciones Españolas y Alemanas. Información clara, precios competitivos y respetuosos con cada paciente. Trato familiar. No pertenecemos a grandes franquicias. Estamos en Avenida Mesa y López Nº1."
