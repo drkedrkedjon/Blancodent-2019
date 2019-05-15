@@ -33,5 +33,5 @@ menu: "main"
 <br><br>
 <small> 
 Le informamos que los datos personales que nos facilite, junto con la dirección IP del equipo desde el que se realiza la operativa o consulta serán tratados por CLÍNICA DENTAL BLANCODENT, SLP, con el alcance siguiente: -- Finalidad: Atención de solicitudes de información recibidas a través de la página web. Legitimación: Interés legítimo Derechos: Acceso, supresión, rectificación y oposición, y derechos explicados en la información adicional. Duración: Los datos serán conservados el plazo necesario para atender y gestionar su solicitud. Información Adicional:
-<a href="nota_legal.html">Nota Legal</a><br>
+<a href="/en/blog/nota-legal">Nota Legal</a><br>
 </small>

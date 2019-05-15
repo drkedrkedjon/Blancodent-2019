@@ -1,10 +1,10 @@
 ---
 title: "Biomaterial"
-date: 2019-05-09T14:20:01+01:00
+date: 2019-05-12T14:20:01+01:00
 draft: true
 tags: ["blogging",]
 description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+heroimage: "/blog/biomaterial/mlincek.jpg"
 menu: "main"
 ---
 

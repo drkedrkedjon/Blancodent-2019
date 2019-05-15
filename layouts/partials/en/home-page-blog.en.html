@@ -4,15 +4,21 @@
     <p>Latest headlines and important news</p>
     </div>
     <div>
-    {{ range first 3 .Site.Taxonomies.tags.blogging }}
+        {{ range first 3 .Site.Taxonomies.tags.blogging }}
         <section>
             <ul>
-                <li><h3><a href="{{ .URL }}">{{ .Name }}</a></h3></li>
-                <li><a href="{{ .URL }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a></li>
-                <li>{{ .Content | truncate 250 }}</li>
+                <li><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></li>
+                <a href="{{ .RelPermalink }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a>
+                <li><p>{{ .Summary }}</p></li>
+                <li>
+                    {{ if .Truncated }}  
+                      <a href="{{ .RelPermalink }}">Reed more...</a>    
+                    {{ end }}
+                </li>
             </ul>
+            
         </section>
-    {{ end }}
+        {{ end }}
     </div>
     <p>
         <a class="myButton-light" href="/en/blog">See rest of headlines --></a>

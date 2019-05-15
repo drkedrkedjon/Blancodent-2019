@@ -5,8 +5,8 @@ draft: true
 tags: ["ofertas",]
 description: ""
 heroimage: "/ofertas/verano/girafa-hero-es.svg"
-herovideo: ""
-poster: ""
+herovideo: "/ofertas/verano/video.mp4"
+poster: "/ofertas/verano/poster.png"
 menu: "main"
 ---
 

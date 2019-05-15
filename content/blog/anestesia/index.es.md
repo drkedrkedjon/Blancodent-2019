@@ -4,7 +4,7 @@ date: 2019-05-09T14:17:35+01:00
 draft: true
 tags: ["blogging",]
 description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+heroimage: "/blog/anestesia/anestesia.jpg"
 menu: "main"
 ---
 

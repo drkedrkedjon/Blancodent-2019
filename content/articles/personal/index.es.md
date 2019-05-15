@@ -4,7 +4,7 @@ date: 2019-05-09T13:08:39+01:00
 draft: true
 tags: ["sobrenosotros",]
 description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+heroimage: "/articles/personal/personal.jpg"
 menu: "main"
 ---
 

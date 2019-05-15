@@ -1,10 +1,10 @@
 ---
 title: "Laser"
-date: 2019-05-09T14:18:21+01:00
+date: 2019-05-11T14:18:21+01:00
 draft: true
 tags: ["blogging",]
 description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+heroimage: "/blog/laser/laser.jpg"
 menu: "main"
 ---
 

@@ -4,7 +4,7 @@ date: 2019-05-09T14:11:45+01:00
 draft: true
 tags: ["servicios",]
 description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+heroimage: "/articles/blanqueamiento/blancos.jpg"
 menu: "main"
 ---
 

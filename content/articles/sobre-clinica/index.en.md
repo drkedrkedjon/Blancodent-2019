@@ -4,7 +4,7 @@ date: 2019-05-09T14:01:17+01:00
 draft: true
 tags: ["sobrenosotros",]
 description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+heroimage: "/articles/sobre-clinica/sobrenosotros.jpg"
 menu: "main"
 ---
 

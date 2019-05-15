@@ -79,6 +79,7 @@ p, a, blockquote, label {
 	font-style: normal;
     font-weight: normal;
     font-stretch: condensed;
+    line-height: 1.5;
     font-optical-sizing: auto;
     color: var(--blacklight);
 }
@@ -90,7 +91,14 @@ h4 {font-size: 1rem;}
 p, a, blockquote, label {font-size: 1rem;}
 h3 > a {font-size: 1.8rem;}
 html {font-size: 1.6vw;}
-em, label {font-weight: 600; font-style: normal;}
+em, label {font-weight: 600; font-style: normal; font-stretch: condensed;}
+label { color: var(--darkgreen) }
+h1 > a, h2 > a, h3 > a, h4 > a {
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-stretch: inherit
+}
 
 @media (max-width: 399px) {
     html { font-size: 5vw; }
@@ -728,7 +736,7 @@ footer p, footer a {
     text-align: right;
 }
 
-.single-container img {
+.single-container > img:first-of-type {
     width: 95%;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -829,7 +837,17 @@ input[type="email"] {
     box-shadow: var(--shadow);
 }
 
+.imagefloat-r {
+    float: right;
+    width: 20vw;
+    shape-outside: circle(50%);
+    }
 
+.imagefloat-l {
+        float: left;
+        width: 20vw;
+        shape-outside: circle(50%);
+    }
 /* --------- END OF EXTRAS CSS -------------------------------------------- */
 /*--------------------------------------------------------------------------*/
 /*---------- DO NOT WRITE UNDER @SUPPORTS RULE -----------------------------*/

@@ -1,6 +1,7 @@
 baseURL = "https://blancodent.com/"
 languageCode = "es"
 title = "Clínica Dental Blancodent - Las Palmas de G.C."
+summaryLength = "30"
 DefaultContentLanguage = "es"
 defaultContentLanguageInSubdir = "false"
 [languages]
