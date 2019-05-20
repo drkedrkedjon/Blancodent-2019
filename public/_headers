@@ -1,0 +1,10 @@
+/*
+
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Content-Type-Options: nosniff
+    Cache-Control: public
+    X-Xss-Protection: 1; mode=block
+    X-Frame-Options: DENY
+    Referrer-Policy: no-referrer
+    Cache-Control: max-age=86400
+    /   /en 302 language=en,de,no,fi,sv,fr,it,ga

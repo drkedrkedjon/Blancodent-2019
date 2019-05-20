@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extras on Clínica Dental Blancodent - Las Palmas de G.C.</title>
+    <link>https://blancodent.com/extras/</link>
+    <description>Recent content in Extras on Clínica Dental Blancodent - Las Palmas de G.C.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 May 2019 10:02:44 +0100</lastBuildDate>
+    
+	<atom:link href="https://blancodent.com/extras/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Todo Corecto</title>
+      <link>https://blancodent.com/extras/submit-ok/</link>
+      <pubDate>Thu, 09 May 2019 10:02:44 +0100</pubDate>
+      
+      <guid>https://blancodent.com/extras/submit-ok/</guid>
+      <description>Gracias, tu formulario ha sido enviado a Blancodent con éxito.
+Puedes regresar a la primera página siguiendo este enlace&amp;hellip;
+Pagina de inicio &amp;ndash;&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Cita Previa</title>
+      <link>https://blancodent.com/extras/contact/</link>
+      <pubDate>Wed, 01 May 2019 18:35:17 +0100</pubDate>
+      
+      <guid>https://blancodent.com/extras/contact/</guid>
+      <description>La respuesta a tu solicitud será en horario comercial y por orden de llegada. Si tienes mucha prisa, por favor, llama directamente a la clínica: +34&amp;nbsp;928&amp;nbsp;292&amp;nbsp;455.
+  Nombre:*</description>
+    </item>
+    
+  </channel>
+</rss>

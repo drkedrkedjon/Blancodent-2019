@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sobrenosotros on Clínica Dental Blancodent - Las Palmas de G.C.</title>
+    <link>https://blancodent.com/tags/sobrenosotros/</link>
+    <description>Recent content in Sobrenosotros on Clínica Dental Blancodent - Las Palmas de G.C.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 May 2019 14:01:12 +0100</lastBuildDate>
+    
+	<atom:link href="https://blancodent.com/tags/sobrenosotros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sobre la Clínica</title>
+      <link>https://blancodent.com/articles/sobre-clinica/</link>
+      <pubDate>Thu, 09 May 2019 14:01:12 +0100</pubDate>
+      
+      <guid>https://blancodent.com/articles/sobre-clinica/</guid>
+      <description>La Clínica Dental Blancodent lleva veinte años abriendo sus puertas a los/as ciudadanos/as de Las Palmas de G.C. Estamos situados en la emblemática y recientemente peatonal Avenida Mesa y López, Nº1 ubicada en el corazón de nuestra bella ciudad.</description>
+    </item>
+    
+    <item>
+      <title>Donde Estamos</title>
+      <link>https://blancodent.com/articles/donde-estamos/</link>
+      <pubDate>Thu, 09 May 2019 14:00:06 +0100</pubDate>
+      
+      <guid>https://blancodent.com/articles/donde-estamos/</guid>
+      <description>&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://blancodent.com/articles/personal/</link>
+      <pubDate>Thu, 09 May 2019 13:08:39 +0100</pubDate>
+      
+      <guid>https://blancodent.com/articles/personal/</guid>
+      <description>&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+  </channel>
+</rss>
