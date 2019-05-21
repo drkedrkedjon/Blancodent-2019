@@ -1,14 +1,14 @@
 ---
-title: "Sobre la Clínica"
+title: "Sobre Blancodent"
 date: 2019-05-09T14:01:12+01:00
-draft: false
+draft: true
 tags: ["sobrenosotros",]
 description: ""
 heroimage: "/articles/sobre-clinica/sobrenosotros.jpg"
 menu: "main"
 ---
 
-La Clínica Dental Blancodent lleva veinte años abriendo sus puertas a los/as ciudadanos/as de Las Palmas de G.C. Estamos situados en la emblemática y recientemente peatonal Avenida Mesa y López, Nº1 ubicada en el corazón de nuestra bella ciudad. Con acceso peatonal fácil, las bicicletas y las guaguas paran en frente de nuestras puertas y hay una multitud de aparcamientos para motos y vehículos en los alrededores. Estamos en el centro de la zona comercial y a 5 minutos a pie del puerto marítimo.
+La Clínica lleva veinte años abriendo sus puertas a los/as ciudadanos/as de Las Palmas de G.C. Estamos situados en la emblemática y recientemente peatonal Avenida Mesa y López, Nº1 ubicada en el corazón de nuestra bella ciudad. Con acceso peatonal fácil, las bicicletas y las guaguas paran en frente de nuestras puertas y hay una multitud de aparcamientos para motos y vehículos en los alrededores. Estamos en el centro de la zona comercial y a 5 minutos a pie del puerto marítimo.
 
 <h2 id="horarios"> Nuestros horarios, ajustados para ti</h2>
 

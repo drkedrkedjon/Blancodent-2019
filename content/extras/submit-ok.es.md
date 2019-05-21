@@ -8,7 +8,6 @@ heroimage: "/images/site/anuncios/promo.jpg"
 menu: ""
 ---
 
-Gracias, tu formulario ha sido enviado a Blancodent con éxito.   
-Puedes regresar a la primera página siguiendo este enlace...
+Gracias, tu formulario ha sido enviado a Blancodent con éxito. Puedes regresar a la página de inicio siguiendo este enlace...
 
 <a class="myButton" href="/">Pagina de inicio --></a>

@@ -1,6 +1,6 @@
 ---
 title: "Nota Legal"
-date: 2019-05-13T20:03:53+01:00
+date: 2019-04-13T20:03:53+01:00
 draft: true
 tags: ["blogging",]
 description: ""
