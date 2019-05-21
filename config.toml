@@ -17,3 +17,26 @@ defaultContentLanguageInSubdir = "false"
 [params]
   copyright = "©Clinica Dental Blancodent™ 1996-2019"
   description = "Odontólogos con titulaciones Españolas y Alemanas. Información clara, precios competitivos y respetuosos con cada paciente. Trato familiar. No pertenecemos a grandes franquicias. Estamos en Avenida Mesa y López Nº1."
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = true
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+

@@ -710,6 +710,7 @@ footer p, footer a {
 /* ---------- END OF LIST PAGE CSS ---------------------------------------- */
 /* ---------- BEGINING OF SINGLE PAGE CSS --------------------------------- */
 
+
 .single-container {
     display: grid;
     grid-gap: 3vw;
@@ -719,11 +720,9 @@ footer p, footer a {
     padding: 8vw 3vw;
     background-color: var(--fondo-beige);
 }
-
-
 .single-container h1 {
     writing-mode: vertical-rl;
-    font-size: 8vw;
+    font-size: 10vw;
     margin: 0;
     padding: 0;
     line-height: 1em;
@@ -735,44 +734,45 @@ footer p, footer a {
     transform: rotate(180deg);
     text-align: right;
 }
-
+.single-container h2 {
+    color: var(--orange);
+    margin-top: 7vw;
+}
 .single-container > img:first-of-type {
-    width: 95%;
+    width: 80%;
     grid-column: 1/3;
     grid-row: 1/2;
     transform: rotate(-5deg);
     margin-top: 10vw;
     border: 0.8vw solid var(--single-grey);
-    border-radius: 2vw;
+    border-radius: 2vw;  
 }
-
 .single-container article {
     grid-column: 3/4;
     grid-row: 1/2;
+    max-width: 65ch;
 }
 .single-article p:first-of-type {
     margin: 0 0 5vw 5vw;
     padding-left: 1vw;
     border-left: 3vw solid var(--single-grey);
 }
-
-.single-article {
-    max-width: 65ch;
-}
-
 @media (min-width: 600px) and (max-width: 750px) {
     .single-container {
         grid-template-columns: 2fr 6fr;
         grid-gap: initial;
+        padding: 5vw 3vw;
     }
     .single-container h1 {
         writing-mode: initial;
-        font-size: 7vw;
         grid-column: 2/3;
         grid-row: 1/2;
         transform: initial;
         text-shadow: -0px 3px 8px var(--single-grey);
         text-align: initial;
+    }
+    .single-container h2 {
+        margin-top: 10vw;
     }
     .single-container > img:first-of-type {
         transform: initial;
@@ -780,32 +780,35 @@ footer p, footer a {
         grid-column: 2/3;
         grid-row: 2/3;
     }
-
     .single-container article {
         grid-column: 2/3;
         grid-row: 3/4;
     }
 }
-
-@media (min-width: 300px) and (max-width: 599px) {
+@media (min-width: 1px) and (max-width: 599px) {
     .single-container {
         grid-template-columns: 1fr ;
         grid-gap: initial;
     }
     .single-container h1 {
         writing-mode: initial;
-        font-size: 10vw;
+        font-size: 12vw;
         grid-column: 1/2;
         grid-row: 1/2;
         transform: initial;
         text-shadow: -0px 3px 8px var(--single-grey);
         text-align: initial;
     }
+    .single-container h2 {
+        margin-top: 15vw;
+    }
     .single-container > img:first-of-type {
-        width: 98.5%;
+        width: 100%;
         transform: initial;
         grid-column: 1/2;
         grid-row: 2/3;
+        border: initial;
+        border-radius: initial;
     }
     .single-container article {
         grid-column: 1/2;
@@ -819,7 +822,36 @@ footer p, footer a {
 }
 /* ---------- END OF SINGLE PAGE CSS -------------------------------------- */
 /* ---------- BEGINING OF EXTRAS CSS -------------------------------------- */
-
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    }
+    
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+.imagefloat-r {
+    float: right;
+    width: 20vw;
+    shape-outside: circle(50%);
+}
+    
+.imagefloat-l {
+        float: left;
+        width: 20vw;
+        shape-outside: circle(50%);
+}
+    
+.image-full-width {
+    width: 100%;
+}
 
 input[type="text"] {
 	width: 100%;
@@ -840,21 +872,7 @@ input[type="email"] {
     box-shadow: var(--shadow);
 }
 
-.imagefloat-r {
-    float: right;
-    width: 20vw;
-    shape-outside: circle(50%);
-    }
 
-.imagefloat-l {
-        float: left;
-        width: 20vw;
-        shape-outside: circle(50%);
-    }
-
-.image-full-width {
-    width: 100%;
-}
 /* --------- END OF EXTRAS CSS -------------------------------------------- */
 /*--------------------------------------------------------------------------*/
 /*---------- DO NOT WRITE UNDER @SUPPORTS RULE -----------------------------*/
