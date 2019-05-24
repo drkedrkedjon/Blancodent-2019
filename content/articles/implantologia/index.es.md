@@ -1,9 +1,9 @@
 ---
 title: "Implantologia"
 date: 2019-05-09T14:14:00+01:00
-draft: true
+draft: false
 tags: ["servicios",]
-description: ""
+description: "Implantes. Solución definitiva de los problemas de tu dentadura. Recupera permanente su función con la última tecnología alemana y prácticamente sin cirugía."
 heroimage: "/articles/implantologia/implantes.jpg"
 herovideo: ""
 poster: ""

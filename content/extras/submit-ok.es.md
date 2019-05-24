@@ -1,9 +1,9 @@
 ---
 title: "Todo Corecto"
 date: 2019-05-09T10:02:44+01:00
-draft: true
+draft: false
 tags: ["",]
-description: ""
+description: "Gracias"
 heroimage: "/images/site/anuncios/promo.jpg"
 menu: ""
 ---

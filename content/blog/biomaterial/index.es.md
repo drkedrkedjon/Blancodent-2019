@@ -1,9 +1,9 @@
 ---
 title: "Biomaterial"
 date: 2019-05-12T14:19:52+01:00
-draft: true
+draft: false
 tags: ["blogging",]
-description: ""
+description: "El último avance tecnológico se trata de un aparato que nos permite utilizar tu propio diente después de la extracción. Se prepara para su uso inmediato para el implante o se puede guardar para el futuro."
 heroimage: "/blog/biomaterial/mlincek.jpg"
 menu: "main"
 ---

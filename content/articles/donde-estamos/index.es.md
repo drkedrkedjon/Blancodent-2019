@@ -1,9 +1,9 @@
 ---
 title: "Donde Estamos"
 date: 2019-05-09T14:00:06+01:00
-draft: true
+draft: false
 tags: ["sobrenosotros",]
-description: ""
+description: "Indicaciones como transportarse hacia la clínica. Mapa de Google y Apple, direcion fisica."
 heroimage: "/articles/donde-estamos/dondeestamos.jpg"
 menu: "main"
 ---

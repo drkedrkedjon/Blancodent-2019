@@ -1,9 +1,9 @@
 ---
 title: "Anestesia"
 date: 2019-05-09T14:17:35+01:00
-draft: true
+draft: false
 tags: ["blogging",]
-description: ""
+description: "Todo sobre Anestesia Dental: Lo que es y lo que no es. Su uso en un tratamiento y tipos de anestesia que existen. Analgésicos, Sedativos y Anestesia Local."
 heroimage: "/blog/anestesia/anestesia.jpg"
 menu: "main"
 ---

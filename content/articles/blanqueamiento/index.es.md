@@ -1,9 +1,9 @@
 ---
 title: "Blanqueamiento"
 date: 2019-05-09T14:11:52+01:00
-draft: true
+draft: false
 tags: ["servicios",]
-description: ""
+description: "El blanqueamiento dental es un tratamiento sencillo e indoloro que permite solucionar las alteraciones en el color de los dientes."
 heroimage: "/articles/blanqueamiento/blancos.jpg"
 menu: "main"
 ---

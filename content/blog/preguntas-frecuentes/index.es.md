@@ -1,10 +1,10 @@
 ---
 title: "Preguntas F."
 date: 2019-05-10T14:18:35+01:00
-draft: true
+draft: false
 tags: ["blogging",]
-description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+description: "Respuestas claras a preguntas frecuentes hechas por nuestros clientes, recopiladas aquí para que tu te informes sin problemas."
+heroimage: "/blog/preguntas-frecuentes/faq.jpg"
 herovideo: ""
 poster: ""
 menu: "main"

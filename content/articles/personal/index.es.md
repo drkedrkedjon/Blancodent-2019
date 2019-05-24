@@ -1,9 +1,9 @@
 ---
 title: "El Personal"
 date: 2019-05-09T13:08:39+01:00
-draft: true
+draft: false
 tags: ["sobrenosotros",]
-description: ""
+description: "Imagenes del personal"
 heroimage: "/articles/personal/personal.jpg"
 menu: "main"
 ---

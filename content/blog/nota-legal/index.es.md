@@ -1,10 +1,10 @@
 ---
 title: "Nota Legal"
 date: 2019-04-13T20:03:53+01:00
-draft: true
+draft: false
 tags: ["blogging",]
-description: ""
-heroimage: "/images/site/anuncios/promo.jpg"
+description: "Información sobre el tratamiento de datos recopilados de los visitantes."
+heroimage: "/blog/nota-legal/legal.jpg"
 herovideo: ""
 poster: ""
 menu: "main"

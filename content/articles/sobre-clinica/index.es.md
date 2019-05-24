@@ -1,9 +1,9 @@
 ---
 title: "Sobre Blancodent"
 date: 2019-05-09T14:01:12+01:00
-draft: true
+draft: false
 tags: ["sobrenosotros",]
-description: ""
+description: "Sobre Blancodent, horarios, imagenes, financiación"
 heroimage: "/articles/sobre-clinica/sobrenosotros.jpg"
 menu: "main"
 ---

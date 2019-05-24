@@ -3,7 +3,7 @@ title: "Ortodoncia"
 date: 2019-05-09T14:13:02+01:00
 draft: true
 tags: ["servicios",]
-description: ""
+description: "La ortodoncia es la especialidad de la Odontología que permite corregir la mal posición de los dientes. Aunque ha sido muy recomendada para los niños actualmente un gran número de adultos la hacen sin problemas gracias al avance de la tecnología. Ya no hay excusa para no sonreírse."
 heroimage: "/articles/ortodoncia/ortodoncia.jpg"
 menu: "main"
 ---

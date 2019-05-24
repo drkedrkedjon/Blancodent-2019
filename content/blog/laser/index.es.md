@@ -1,9 +1,9 @@
 ---
 title: "Láser"
 date: 2019-05-11T14:18:25+01:00
-draft: true
+draft: false
 tags: ["blogging",]
-description: ""
+description: "Los láseres cada vez son más utilizados en la Odontología, nos ofrecen tratamientos más rápidos, limpios y, lo más importante, más aceptados por los pacientes."
 heroimage: "/blog/laser/laser.jpg"
 menu: "main"
 ---

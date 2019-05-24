@@ -1,9 +1,9 @@
 ---
 title: "Oferta De Verano"
 date: 2019-05-01T11:20:43+01:00
-draft: true
+draft: false
 tags: ["ofertas",]
-description: ""
+description: "Oferta de Verano"
 heroimage: "/ofertas/verano/girafa-hero-es.svg"
 herovideo: "/ofertas/verano/video.mp4"
 poster: "/ofertas/verano/poster.png"
