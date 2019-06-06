@@ -12,8 +12,8 @@
     {{ range .Pages  }}
         <section>
             <ul>
-                <li><h3><a href="{{ .URL }}">{{ .Name }}</a></h3></li>
-                <li><a href="{{ .URL }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a></li>
+                <li><h3><a href="{{ .RelPermalink }}">{{ .Name }}</a></h3></li>
+                <li><a href="{{ .RelPermalink }}"><img class="cover" src="{{ .Params.heroimage }}" alt=""></a></li>
                 <li>{{ .Content | truncate 250 }}</li>
             </ul>
             
